@@ -33,11 +33,10 @@ public class checkEvenOddForLoop {
 				oddCount++;
 			}
 		}
-		for (int i = 0; i < numList.length; i++) {
-			System.out.println("Total even numbers :" + evenCount);
-			System.out.println("Total Odd numbers :" + oddCount);
-			break;
-		}
+
+		System.out.println("Total even numbers :" + evenCount);
+		System.out.println("Total Odd numbers :" + oddCount);
+
 	}
 
 }
